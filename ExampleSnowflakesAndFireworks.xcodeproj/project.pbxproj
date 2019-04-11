@@ -12,6 +12,10 @@
 		2C8B9614225F24D400099810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B9612225F24D400099810 /* Main.storyboard */; };
 		2C8B9616225F24D500099810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B9615225F24D500099810 /* Assets.xcassets */; };
 		2C8B9619225F24D500099810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B9617225F24D500099810 /* LaunchScreen.storyboard */; };
+		2C8B9621225F254A00099810 /* extensionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B9620225F254A00099810 /* extensionUIViewController.swift */; };
+		2C8B9625225F271B00099810 /* icons8-winter-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B9622225F271B00099810 /* icons8-winter-80.png */; };
+		2C8B9626225F271B00099810 /* icons8-winter-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B9623225F271B00099810 /* icons8-winter-100.png */; };
+		2C8B9627225F271B00099810 /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B9624225F271B00099810 /* particle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2C8B9615225F24D500099810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8B9618225F24D500099810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8B961A225F24D500099810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8B9620225F254A00099810 /* extensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIViewController.swift; sourceTree = "<group>"; };
+		2C8B9622225F271B00099810 /* icons8-winter-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-winter-80.png"; sourceTree = "<group>"; };
+		2C8B9623225F271B00099810 /* icons8-winter-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-winter-100.png"; sourceTree = "<group>"; };
+		2C8B9624225F271B00099810 /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		2C8B960D225F24D400099810 /* ExampleSnowflakesAndFireworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C8B9628225F272300099810 /* images */,
 				2C8B960E225F24D400099810 /* AppDelegate.swift */,
 				2C8B9610225F24D400099810 /* ViewController.swift */,
 				2C8B9612225F24D400099810 /* Main.storyboard */,
 				2C8B9615225F24D500099810 /* Assets.xcassets */,
 				2C8B9617225F24D500099810 /* LaunchScreen.storyboard */,
 				2C8B961A225F24D500099810 /* Info.plist */,
+				2C8B9620225F254A00099810 /* extensionUIViewController.swift */,
 			);
 			path = ExampleSnowflakesAndFireworks;
+			sourceTree = "<group>";
+		};
+		2C8B9628225F272300099810 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B9622225F271B00099810 /* icons8-winter-80.png */,
+				2C8B9623225F271B00099810 /* icons8-winter-100.png */,
+				2C8B9624225F271B00099810 /* particle.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +144,10 @@
 			files = (
 				2C8B9619225F24D500099810 /* LaunchScreen.storyboard in Resources */,
 				2C8B9616225F24D500099810 /* Assets.xcassets in Resources */,
+				2C8B9626225F271B00099810 /* icons8-winter-100.png in Resources */,
+				2C8B9625225F271B00099810 /* icons8-winter-80.png in Resources */,
 				2C8B9614225F24D400099810 /* Main.storyboard in Resources */,
+				2C8B9627225F271B00099810 /* particle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8B9621225F254A00099810 /* extensionUIViewController.swift in Sources */,
 				2C8B9611225F24D400099810 /* ViewController.swift in Sources */,
 				2C8B960F225F24D400099810 /* AppDelegate.swift in Sources */,
 			);
